@@ -1,5 +1,28 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Baker Supply keyword research</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.55;color:#1d1d1f;background:#fff}a{color:#0b57d0}footer{margin-top:40px;font-size:14px;color:#555}</style></head><body>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Baker Supply keyword research</title>
+<meta name="description" content="Baker Supply keyword research: an internal, read-only Google Ads API keyword research tool operated by Baker Supply Works.">
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.55;color:#1d1d1f;background:#fff}a{color:#0b57d0}h2{margin-top:28px}footer{margin-top:40px;font-size:14px;color:#555}</style></head><body>
 <h1>Baker Supply keyword research</h1>
-<p>Baker Supply keyword research is an internal, read-only tool used by Baker Supply Works (Chicago, Illinois) to study search demand for products and services.</p>
-<p>It signs in to the operator's own Google Ads account and uses the Google Ads API Keyword Planning services (keyword ideas and historical search metrics) to collect aggregate keyword statistics. It does not create or change campaigns, budgets, billing or ads, and it is not offered to other users.</p>
-<footer><a href="/">Home</a> · <a href="/privacy.html">Privacy policy</a> · <a href="/terms.html">Terms of service</a> · Contact: jermainebaker1512@gmail.com</footer></body></html>
+<p><strong>Baker Supply keyword research</strong> is an app operated by <strong>Baker Supply Works</strong>, a small business in Chicago, Illinois. It is used internally by Baker Supply Works to study how often people search for products and services, so that we can decide which products to source and sell.</p>
+
+<h2>What the app does</h2>
+<ul>
+<li>Signs in to the operator's own Google Ads account with Google sign-in (OAuth).</li>
+<li>Requests keyword ideas for seed words, countries and languages that we choose, using the Google Ads API <em>KeywordPlanIdeaService.GenerateKeywordIdeas</em> method.</li>
+<li>Requests historical search statistics (average monthly searches, monthly search volumes, competition level and top-of-page bid ranges) for lists of keywords, using <em>KeywordPlanIdeaService.GenerateKeywordHistoricalMetrics</em>.</li>
+<li>Saves those aggregate keyword statistics to our private research files for analysis.</li>
+</ul>
+<p>The app is read-only. It does not create, edit, pause or delete campaigns, ads, keywords, budgets, billing settings or users, and it never spends money on advertising.</p>
+
+<h2>What user data the app requests, and why</h2>
+<p>The app requests one Google permission: the Google Ads API scope (<code>https://www.googleapis.com/auth/adwords</code>). Google requires this scope for all Google Ads API calls, including keyword planning. We use it only to read keyword planning statistics through the operator's own Google Ads account. The statistics are aggregate and anonymous search estimates; they contain no information about individual people.</p>
+<p>The app does not read email, contacts, files or any other Google data. The sign-in token is stored only on the operator's own computer. No Google user data is sold, shared with third parties or used for advertising.</p>
+
+<h2>Who can use it</h2>
+<p>This is an internal tool. It is not offered to the public; only Baker Supply Works staff sign in.</p>
+
+<h2>Privacy policy and terms</h2>
+<p>Read our <a href="https://jbaker07.github.io/privacy.html">Privacy Policy</a> and <a href="https://jbaker07.github.io/terms.html">Terms of Service</a>.</p>
+<p>Contact: <a href="mailto:jermainebaker1512@gmail.com">jermainebaker1512@gmail.com</a></p>
+
+<footer><a href="https://jbaker07.github.io/">Home</a> · <a href="https://jbaker07.github.io/privacy.html">Privacy Policy</a> · <a href="https://jbaker07.github.io/terms.html">Terms of Service</a></footer>
+</body></html>
